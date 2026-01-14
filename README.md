@@ -1,18 +1,18 @@
 # 👨‍💻 Portfólio - Paulo Roberto
 
-Bem-vindo ao meu portfólio! Sou desenvolvedor full-stack focado em automação, programação e desenvolvimento web.
+Bem-vindo ao meu portfólio! Sou desenvolvedor front-end focado em automação, programação e desenvolvimento web.
 
 ## 📋 Sobre Mim
 
-Nasci em 1999 e sou do interior de São Paulo. Trabalho com Automatização e Programação desde 2020. Recentemente concluí o curso de **Análise e Desenvolvimento de Software**, onde desenvolvi habilidades em HTML, CSS, JavaScript e React.
+Nasci em 1999 e sou do interior de São Paulo. Trabalho com Automatização e Programação desde 2020. Recentemente concluí o curso de **Análise e Desenvolvimento de Software**, onde desenvolvi habilidades em HTML, CSS, JavaScript.
 
 Estou buscando oportunidades para aplicar meu conhecimento e crescer profissionalmente.
 
 ## 🚀 Tecnologias
 
-- **Frontend:** HTML, CSS, JavaScript, React
-- **Automação:** Programação em Automação
-- **Sistemas:** Sistemas Integrados
+- **Frontend:** HTML, CSS, JavaScript;
+- **Automação:** Programação em Automação;
+- **Sistemas:** Sistemas Integrados;
 
 ## 💼 Experiência
 
