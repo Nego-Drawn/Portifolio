@@ -1,0 +1,230 @@
+/* Configuração de Corpo da Pagina */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html {
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-image: url("https://raw.githubusercontent.com/Nego-Drawn/Imagem/refs/heads/main/folhas-da-planta-monstera-deliciosa-molhada-em-um-jardim.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Configuração de Fundo Alternativo */
+.changeback {
+  background-image: url(https://raw.githubusercontent.com/Nego-Drawn/Imagem/refs/heads/main/spotlit_display_interior_design_2204.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* Configuração de Container da Pagina */
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffffff;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/*Menu de Mudança de Tema*/
+.backgroundcolor{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+/* Cabeçalho da Pagina */
+header {
+    background-color: #ffffff;
+    border-image: linear-gradient(45deg, #ffffff, #000000) 1;
+    border: 5px solid transparent;;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+/*Cabeçalho Alternativo*/
+.HeaderAlt {
+    background-color: #000000;
+    color: #ffffff;
+}
+/* Configuração do Link do Portifólio */
+.portifolio {
+    font-size: 24px;
+    padding: 10px 15px;
+    margin: auto;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+/*Alteração de Fundo quando clica*/
+.portifolio:hover {
+    background-color: rgb(200, 200, 200);
+    border-radius: 50px;
+}
+.portifolioAlt {
+    color: #ffffff;
+}
+/* Configuração do Container de Texto */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    max-width: 800px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+/*Configuração de Texto Alternativo*/
+.textAlt {
+    color:#000000;
+    font-weight: 600;
+}
+/*Configuração de Foto*/
+.Photo {
+    border-radius: 50%;
+    max-width: 100%;
+    margin: 10px 30px 10px 10px;
+    height: auto;
+    width: 720px;
+    border: #000000 0px solid; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+    filter: grayscale(100%);
+}
+.PhotoAlt {
+    filter: none;
+}
+/*Configuração de Biografia*/
+.biography {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+}
+.biographyAlt {
+    color: #ffffff;
+    text-shadow: -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, 2px 2px 0 #000000;
+}
+/*Link LinkedIn*/
+.LinkedIn {
+    padding: 25px 10px 25px 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    font-weight: 600;
+}
+
+/*Alteração de Fundo quando clica*/
+.LinkedIn:hover {
+    padding: 25px 10px 25px 10px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 5px;
+    border: #b6b6b6 1px solid;
+    margin: 0 10px;
+    box-sizing: border-box;
+
+}
+/*Link Instagram*/
+.Instagram {
+    padding: 25px 10px 25px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    font-weight: 600;
+}
+
+/*Alteração de Fundo quando clica*/
+.Instagram:hover {
+    box-sizing: border-box;
+      padding: 25px 10px 25px 10px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 5px;
+    border: #b6b6b6 1px solid;
+    margin: 0 10px;
+}
+.LinksAlt {
+    color: #000000;
+}
+/*Botão de Contatos*/
+.contact {
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    border-radius: 5px;
+    border: #b6b6b6 2px solid;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-weight: 550;
+}
+/* Configuração de Container de Contatos */
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+}
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .conteiner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .Photo {
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+    .text-container {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .name {
+        font-size: 36px;
+    }
+    .about {
+        font-size: 28px;
+        max-width: 100%;
+    }
+    .description {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .conteinerk {
+        flex-direction: column;
+        align-items: center;
+    }
+    .LinkedIn, .Instagram {
+        margin: 10px 0;
+        padding: 20px 10px;
+    }
+}
