@@ -5,7 +5,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background-image: url("https://raw.githubusercontent.com/Nego-Drawn/Imagem/refs/heads/main/folhas-da-planta-monstera-deliciosa-molhada-em-um-jardim.jpg");
+  background-image: url("assets/images/background-principal.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 }
 /* Configuração de Fundo Alternativo */
 .changeback {
-  background-image: url(https://raw.githubusercontent.com/Nego-Drawn/Imagem/refs/heads/main/spotlit_display_interior_design_2204.jpg);
+  background-image: url(assets/images/background-alternativo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
