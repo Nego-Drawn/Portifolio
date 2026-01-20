@@ -16,7 +16,7 @@ Estou buscando oportunidades para aplicar meu conhecimento e crescer profissiona
 
 ## 💼 Experiência
 
-- Trabalho em Automatização e Programação desde 2020
+- Trabalhei em Automação em Campo desde 2020
 - Desenvolvimento de aplicações web
 - Integração de sistemas
 
